@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.DTO\Shop.DTO.csproj" />
+    <ProjectReference Include="..\Shop.Repo\Shop.Repo.csproj" />
+  </ItemGroup>
+
+</Project>
