@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Shop.Model.Services
 {
-    class Service
+    public class Service  //dodany public zeby bylo dostepne
     {
         public int Id { get; set; }
         public string Type { get; set; }
