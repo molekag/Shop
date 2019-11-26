@@ -8,6 +8,6 @@ namespace Shop.Repo
     public interface IProductRepo
     {
         Task<IList<Model.Products.Product>> GetProductsAsync(); //Brakowalo reference do projektu Shop.Model
-       // IList<Model.Employees.Employee> GetProducts();  //Poki co model.employees.employee nie istnieje
+        IList<Model.Products.Product> GetProducts(); // IList<Model.Employees.Employee> GetProducts();  //Poki co model.employees.employee nie istnieje
     }
 }

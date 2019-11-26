@@ -35,6 +35,28 @@ namespace Shop.Repo
             return products;
         }
 
+        public IList<Model.Products.Product> GetProducts()
+        {
+            List<Model.Products.Product> products = new List<Model.Products.Product>();
+            Model.Products.Product product = new Model.Products.Product()
+            {
+               Name = "Sofa",
+               Description = "Black",
+               Price = 200,
+            };
+            Model.Products.Product product2 = new Model.Products.Product()
+            {
+                Name = "Table",
+                Description = "Glass",
+                Price = 150,
+
+            };
+            return products;
+
+
+        }
+
+
 
         //musisz dodac teraz implementacje dla GetProducts i dodac to w IProductRepo (teraz jest skomentowane)
         //
