@@ -11,5 +11,6 @@ namespace Shop.DTO.Products
         public string Name { get; set; }
         public string Type { get; set; }
         
+        
     }
 }
