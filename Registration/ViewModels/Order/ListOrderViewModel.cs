@@ -11,5 +11,8 @@ namespace Registration.ViewModels.Order
         public List<Delivery> Orders { get; set; }
         public DateTime ProduceDate { get; set; }
 
+        DateTime date = new DateTime(2019, 12, 02);
+        
+
     }
 }

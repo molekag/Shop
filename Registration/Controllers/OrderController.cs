@@ -24,8 +24,8 @@ namespace Registration.Controllers
 
             ListOrderViewModel viewModel = new ListOrderViewModel();
 
-            order.Add(new ListOrderViewModel { ProduceDate = "02.12.2019" }); //powinnam dodac string w clasie zeby dodal date?tylko ze to sa cyfry czyli int,a moze dodac gdzies "actual date"?
-
+            DateTime date = default(DateTime);
+           
        
             return View(viewModel);
                 
