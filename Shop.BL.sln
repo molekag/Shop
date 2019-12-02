@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Model", "Shop.BL\Shop.Model.csproj", "{59C252E6-10E9-4A49-AB1D-C1BF24F96470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Model", "Shop.BL\Shop.Model.csproj", "{59C252E6-10E9-4A49-AB1D-C1BF24F96470}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Repo", "Shop.Repo\Shop.Repo.csproj", "{8EFBA3FF-F89D-4F2F-B223-8D293ADEA636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Repo", "Shop.Repo\Shop.Repo.csproj", "{8EFBA3FF-F89D-4F2F-B223-8D293ADEA636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.DTO", "Shop.DTO\Shop.DTO.csproj", "{05AD9F3A-4197-4D93-BB46-6B3B87AF110D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.DTO", "Shop.DTO\Shop.DTO.csproj", "{05AD9F3A-4197-4D93-BB46-6B3B87AF110D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Core", "Shop.Core\Shop.Core.csproj", "{F16AF5BD-3766-416E-891E-02832178195A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Core", "Shop.Core\Shop.Core.csproj", "{F16AF5BD-3766-416E-891E-02832178195A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration", "Registration\Registration.csproj", "{577B68F5-C4B9-4BC2-A92C-306C0AED9557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Registration", "Registration\Registration.csproj", "{577B68F5-C4B9-4BC2-A92C-306C0AED9557}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
