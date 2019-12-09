@@ -9,9 +9,9 @@ namespace Registration.ViewModels.Order
     public class ListOrderViewModel
     {
         public List<Delivery> Orders { get; set; }
-        public DateTime ProduceDate { get; set; }
+        public DateTime OrderTime { get; set; }
 
-        DateTime date = new DateTime(2019, 12, 02);
+        private readonly DateTime date = new DateTime(2019, 12, 02);
         
 
     }
