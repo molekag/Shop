@@ -22,4 +22,11 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.BL\Shop.Model.csproj" />
+    <ProjectReference Include="..\Shop.Core\Shop.Core.csproj" />
+    <ProjectReference Include="..\Shop.DTO\Shop.DTO.csproj" />
+  </ItemGroup>
+
 </Project>

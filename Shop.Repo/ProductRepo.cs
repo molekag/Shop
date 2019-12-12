@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shop.Repo
 {
-    public class
-        ProductRepo : IProductRepo // nazwy zmienione do liczby pojedynczej. Bo kazda klasa jest pojedyncza, tylko obiekt moze byc mnoga jesli to jakiejs formy lista
+    public class ProductRepo : IProductRepo // nazwy zmienione do liczby pojedynczej. Bo kazda klasa jest pojedyncza, tylko obiekt moze byc mnoga jesli to jakiejs formy lista
 
     {
 

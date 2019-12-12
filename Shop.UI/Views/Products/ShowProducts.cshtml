@@ -1,0 +1,27 @@
+﻿@using Shop.Model.Products
+@model Shop.UI.ViewModel.Products.ShowProductsViewModel
+@{
+    ViewData["Title"] = "ShowProducts";
+}
+
+<h1>ShowProducts</h1>
+
+<div>
+    <p>Products:</p>
+    @{
+        foreach (var product in Model.Products)
+        {
+            <text>
+                <p>@product.Name </p>
+                <p>Type: @product.Type</p>
+            </text>
+        }
+
+    }
+
+</div>
+
+<div>
+    My time is: @Model.CurrentTime
+</div>
+

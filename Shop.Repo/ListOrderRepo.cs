@@ -10,7 +10,10 @@ namespace Shop.Repo
     class ListOrderRepo
     {
 
-        public async Task<IList<ViewModels.Order.ListOrderViewModel>> GetProductsAsync() //teraz musze wszedzie pododawac,( analogicznie jak z product), repo, core, shop.model i DTO
+        public async Task<IList<string>> GetProductsAsync() //teraz musze wszedzie pododawac,( analogicznie jak z product), repo, core, shop.model i DTO
         {
+            return null;
+        }
+    }
+}
 
-        }  
